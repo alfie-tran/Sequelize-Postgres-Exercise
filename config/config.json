@@ -1,0 +1,30 @@
+{
+	"development": {
+		"username": "demoSequelize_owner",
+		"password": "dIcXBj9JDz8r",
+		"database": "sequelize_postgres",
+		"host": "ep-winter-firefly-a1rne76p-pooler.ap-southeast-1.aws.neon.tech",
+		"dialect": "postgres",
+		"port": 5432,
+		"dialectOptions": {
+			"ssl": {
+				"require": true,
+				"rejectUnauthorized": false
+			}
+		}
+	},
+	"test": {
+		"username": "root",
+		"password": null,
+		"database": "database_test",
+		"host": "127.0.0.1",
+		"dialect": "mysql"
+	},
+	"production": {
+		"username": "root",
+		"password": null,
+		"database": "database_production",
+		"host": "127.0.0.1",
+		"dialect": "mysql"
+	}
+}
